@@ -1,0 +1,29 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    --main-purple: #5c6ac4;
+    --cream: #fff6ef;
+    --text-black: #151122;
+    --text-gray: #7f7c88;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    color: var(--text-black);
+}
+
+/*
+    Buttons
+---------------*/
+.btn-custom-sm, .btn-custom-md {
+    background: var(--main-purple);
+    color: white;
+    border-radius: 5px;
+}
+.btn-custom-sm {
+    padding: 7px 21px;
+}
+.btn-custom-md {
+    font-size: 1.125rem;
+    padding: 10px 60px;
+}
