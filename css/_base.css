@@ -27,3 +27,26 @@ body {
     font-size: 1.125rem;
     padding: 10px 60px;
 }
+/*
+    Section Headings - Used in Carousal and Blog Sections
+-----------------------------------------------------------*/
+.section-heading {
+    font-size: 1.75rem;
+    color: var(--text-black);
+    font-weight: 500;
+    line-height: 1.2;
+}
+.section-subheading {
+    font-size: 0.875rem;
+    color: var(--text-gray);
+    font-weight: 500;
+    line-height: 2;
+}
+@media (min-width: 768px) {
+    .section-heading {
+        font-size: 2rem;
+    }
+    .section-subheading {
+        font-size: 1rem;
+    }
+}

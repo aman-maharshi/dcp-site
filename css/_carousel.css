@@ -1,0 +1,37 @@
+.custom-carousel {
+    padding: 2rem 0;
+}
+.carousel__desc {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+.carousel__author {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.carousel {
+    position: relative;
+}
+.carousel__navigator {
+    float: right;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+}
+.carousel__navigator a {
+    margin-left: 1rem;
+    text-decoration: none;
+}
+.carousel__navigator a:hover, .carousel__navigator a:active, .carousel__navigator a:focus {
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .carousel {
+        padding: 4rem 0;
+    }
+    .carousel__desc {
+        padding-top: 1.5rem;
+        background: url(../images/quote.png) no-repeat top left;
+        background-position-x: 10px;
+    }
+}
