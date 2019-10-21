@@ -78,3 +78,20 @@ header {
         font-size: 3.375rem;
     }
 }
+
+
+@media (max-width: 425px) {
+    .hero__title, .hero__desc, .hero__small-text {
+        text-align: center;
+    }
+    .hero__title {
+        font-size: 2.25rem;
+    }
+    .hero__desc {
+        font-size: 1rem;
+    }
+    .hero__btn {
+        display: flex;
+        justify-content: center;
+    }
+}
